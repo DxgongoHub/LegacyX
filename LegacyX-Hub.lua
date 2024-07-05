@@ -25,7 +25,8 @@ local Options = Fluent.Options
 do
     Fluent:Notify({
         Title = "LegacyX Hub",
-        Content = "ใช้สคริปให้สนุกนะค้าบ",
+        Content = "กด F1 เพื่อย่อหน้าต่างเมนูสคริปนะครับ",
+        SubContent = "ขอให้ใช้สคิปให้สนุกนะคับ", -- Optional
         Duration = 8 -- Set to nil to make the notification not disappear
     })
 
