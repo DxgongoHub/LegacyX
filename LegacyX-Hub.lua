@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "LegacyX Hub (Beta)",
+    Title = "LegacyX Hub",
     SubTitle = "General Script",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
@@ -25,8 +25,7 @@ local Options = Fluent.Options
 do
     Fluent:Notify({
         Title = "LegacyX Hub",
-        Content = "ตอนนี้สคิปอยู่ระหว่างการทดสอบ",
-        SubContent = "Script Is Currenty Beta", -- Optional
+        Content = "ใช้สคริปให้สนุกนะค้าบ",
         Duration = 8 -- Set to nil to make the notification not disappear
     })
 
@@ -37,7 +36,7 @@ Tabs.Credit:AddParagraph({
 
 
     Tabs.Main:AddParagraph({
-        Title = "LegacyX Hub(Beta)",
+        Title = "LegacyX Hub",
         Content = "Updated 5/7/2024"
     })
 
